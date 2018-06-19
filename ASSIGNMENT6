@@ -1,0 +1,73 @@
+for i in range(10):
+    a=int(input("enter the values"))
+    print(i)
+
+#Ques2
+
+while(True):
+ print("shivangi")
+
+#Ques3
+
+l=[]
+a=int(input("enter the values:"))
+b=int(input("enter the value:"))
+l.append(a)
+l.append(b)
+print(l)
+for i in l:
+    print(i**2)
+
+#Ques4
+
+l=["hello",1,2.4]
+n=[]
+m=[]
+c=[]
+n.append(l[0])
+m.append(l[1])
+c.append(l[2])
+for i in (l):
+    print(n)
+    print(m)
+    print(c)
+    break
+#Ques5
+
+even=[]
+odd=[]
+for i in range(0,101):
+    if i % 2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("number is even",even)
+print("number is odd",odd)
+
+#Ques6
+
+for i in range(0,5):
+    for j in range(0,i+1):
+        print("*",end="")
+    print()
+
+#Ques7
+
+
+dictionary={"name":"shivangi","age":"21"}
+for i in dictionary:
+    dictionary.get(i)
+    print(i)
+
+#Ques8
+
+l=[]
+for i in range(0,5):
+  num=int(input("enter the nunber:"))
+  l.append(num)
+print(l)
+l2=[]
+a=int(input("enter the value:"))
+x=l.index(2)
+x=l.remove(2)
+print(l)
